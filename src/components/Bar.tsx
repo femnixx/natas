@@ -1,7 +1,7 @@
 
 const Bar = () => {
   return (
-    <div className="hidden lg:flex">
+    <div className="hidden lg:flex justify-between p-5">
         <div className="flex">
             <p className="font-bold">F</p>
             <p className="font-semibold">Framer</p>
