@@ -1,9 +1,10 @@
+import framerlogo from "../assets/framerlogo.svg"
 
 const Bar = () => {
   return (
     <div className="hidden lg:flex justify-between p-5">
         <div className="flex">
-            <p className="font-bold">F</p>
+            <img src={framerlogo} alt="" />
             <p className="font-semibold">Framer</p>
         </div>
         <div className="flex">
