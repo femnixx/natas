@@ -7,19 +7,19 @@ const Bar = () => {
             <img src={framerlogo} alt="" />
             <p className="font-semibold">Framer</p>
         </div>
-        <div className="flex">
+        <div className="flex gap-x-1">
             <p>Why Framer</p>
             <p>v</p>
         </div>
-        <div className="flex">
+        <div className="flex gap-x-1">
             <p>Templates</p>
             <p>v</p>
         </div>
-        <div className="flex">
+        <div className="flex gap-x-1">
             <p>Community</p>
             <p>v</p>
         </div>
-        <div className="flex">
+        <div className="flex gap-x-1">
             <p>Resources</p>
             <p>v</p>
         </div>
