@@ -2,8 +2,8 @@ import framerlogo from "../assets/framerlogo.svg"
 
 const Bar = () => {
   return (
-    <div className="hidden lg:flex justify-between p-5">
-        <div className="flex">
+    <div className="hidden lg:flex justify-between p-5 items-center">
+        <div className="flex gap-x-2">
             <img src={framerlogo} alt="" />
             <p className="font-semibold">Framer</p>
         </div>
@@ -32,7 +32,7 @@ const Bar = () => {
         <div className="flex">
             <p>Pricing</p>
         </div>
-        <div className="flex">
+        <div className="flex bg-gradient-to-r from-[#0099FF] to-[#CC00FF] rounded-lg py-2 px-4 text-white">
             <p>Publish your site for free</p>
         </div>
     </div>
