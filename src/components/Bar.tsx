@@ -2,7 +2,7 @@
 const Bar = () => {
   return (
     <div className="flex">
-
+        
     </div>
   )
 }
