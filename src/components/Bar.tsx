@@ -1,8 +1,16 @@
 
 const Bar = () => {
   return (
-    <div className="flex">
-        
+    <div className="hidden lg:flex">
+        <div className="flex"></div>
+        <div className="flex"></div>
+        <div className="flex"></div>
+        <div className="flex"></div>
+        <div className="flex"></div>
+        <div className="flex"></div>
+        <div className="flex"></div>
+        <div className="flex"></div>
+        <div className="flex"></div>
     </div>
   )
 }
