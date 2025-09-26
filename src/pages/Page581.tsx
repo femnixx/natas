@@ -6,6 +6,8 @@ const Page581 = () => {
     {/* bar */}
     <Bar></Bar>
     {/* content */}
+    <p>Site Pricing</p>
+    <p>Start building your site for free. <br /> Upgrade to unlock more features.</p>
   </div>
   </>
 }
